@@ -8,7 +8,7 @@ def getSecrets():
     secrets = {
         'MAIL_PASSWORD':'YourPasswordHere',
         'MAIL_USERNAME':'YourEmailAddressHere',
-        'MONGO_ADMIN': 'MongoUserNameHere',
+        'MONGO_ADMIN': 'mongodb+srv://Kellyruan25:<password>@cluster0.x7zdt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
         'MONGO_PASSWORD':'MongoPasswordHere'
         }
     return secrets
