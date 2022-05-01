@@ -1,59 +1,48 @@
 <!-- This is a blank template.  You can copy this to make a new template page. -->
- 
-{% extends 'base.html' %}
- 
-{% block body %}
-<h1>About Us</h1>
-<h3>Author Blurbs + Photos</h3>
- 
-<table class="table">
-    <thead>
-        <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Image</th>
-            <th scope="col">Blurb</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Ida</td>
-            <td>
-                <img src="">
-            </td>
-            <td>I'm a senior at Oakland Tech's Computer Academy. In my free time I like playing games and baking.</td>
-        </tr>
-        <tr>
-            <td>Kelly</td>
-            <td>
-                <img src="">
-            </td>
-            <td>I attend Oakland Technical High School and I am a senior. I am currently studying computer science.</td>
-        </tr>
-        <tr>
-            <td>Amanda</td>
-            <td>
-                <img src="">
-            </td>
-            <td>I'm currently a high school senior at Oakland Technical High School. I want to become a software
-                engineer
-                once I graduate from college.</td>
-        </tr>
-    </tbody>
-</table>
- 
-<br></br>
-<h4>Our purpose: inform people who don't understand the topic and provide resources for women/minorities who face
-    challenges in their field </h4>
-<h5>Interactivity description: </h5>
-<li>Providing resources - links to STEM opportunities, such as organizations so it is easier to find</li>
-<li>Learning/Education - teach people and share data/info about the topic (statistics, reasoning for why this problem
-    occurred, etc.) </li>
- 
-<br></br>
-<h3>Version 1.02</h3>
-<h5>Release Notes: </h5>
-<p>About Us Page: added author blurbs and images for about us page. Included short description for the purpose of
-    website. Describe interactivity for users.</p>
- 
-{% endblock %}
 
+{% extends 'base.html' %}
+
+{% block body %}
+<h1 style="font-family: 'Kaisei Tokumin', serif;"><Strong>About Us</Strong></h1>
+<h3 style="font-family: 'Kaisei Tokumin', serif;"><Strong>Who We Are-</Strong></h3>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap" rel="stylesheet">
+            <p style="font-family: 'Kaisei Tokumin', serif;">We are the creators and owners of the STEM Capstone website in the computer science academy.</p>
+            <img src="/static/grouphoto.jpg" width="450" height="250" style="float: right;" />
+            <p style="font-family: 'Kaisei Tokumin', serif;"><strong>Left: </strong>Hi, I'm Kelly. I attend Oakland
+                Technical High School and I am a senior. I am currently studying computer science.</p>
+            <p style="font-family: 'Kaisei Tokumin', serif;"><strong>Middle: </strong>Hi, I'm Amanda. I'm currently a high
+                school senior at Oakland Technical High School. I want to become a software engineer once I graduate
+                from college. </p>
+            <p style="font-family: 'Kaisei Tokumin', serif;"><strong>Right: </strong>Hi, I'm Ida. I'm a senior at Oakland
+                Tech's Computer Academy. In my free
+                time I like playing games and baking.</p>
+        </div>
+    </div>
+</div>
+
+<br></br>
+
+<!-- Purpose -->
+<h3 style="font-family: 'Kaisei Tokumin', serif;"><Strong>Our purposes and goals:</Strong></h3>
+<li style="font-family: 'Kaisei Tokumin', serif;">to inform people who don't understand what STEM is </li>
+<li style="font-family: 'Kaisei Tokumin', serif;">to provide resources to women and minorities from under resourced schools</li>
+<li style="font-family: 'Kaisei Tokumin', serif;">to spread awareness about the STEM Gap</li>
+<li style="font-family: 'Kaisei Tokumin', serif;">to encourage students to participate in STEM</li>
+
+<br></br>
+<h3 style= "font-family: 'Kaisei Tokumin', serif;"><strong>Version 4.3</strong></h3>
+<h5 style = "font-family: 'Kaisei Tokumin', serif;">Release Notes: </h5>
+<li style = "font-family: 'Kaisei Tokumin', serif;">About Us Page: added author blurbs and images for about us page. Included short description for the purpose of
+    website. Describe interactivity for users.</li>
+<li style = "font-family: 'Kaisei Tokumin', serif;">STEM Overview Home Page: added more content and images</li>
+<li style = "font-family: 'Kaisei Tokumin', serif;">Organization Page: included an organization page for interactivity between the users and website</li>
+
+<body style="background-color:#E1E1F7">
+
+
+
+    {% endblock %}
